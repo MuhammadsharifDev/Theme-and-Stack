@@ -23,6 +23,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
 final themeData=isDark?AppTheme.dark:AppTheme.light;
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
      theme: themeData,
@@ -82,16 +83,18 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                     child: Row(
                       children: [
                         SizedBox(
-                          width: 4,
+                          width: 15,
                         ),
 
+                CircleAvatar(
+                  backgroundColor: Colors.red,
+                  radius: 5,
+                ),
                         SizedBox(
                           width: 10,
                         ),
                         Expanded(child: Text('Timofey.P')),
-                        SizedBox(
-                          width: 160,
-                        ),
+
                         Text('9 700 000'),
                         Text('sum',style:TextStyle(color:Colors.black54)),
                       ],
@@ -107,15 +110,21 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                   ),
                   child: Row(
                     children: [
+                      CircleAvatar(
+                        backgroundColor:Colors.orangeAccent,
+                        radius: 5,
+
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
                       Expanded(
                         child: Text(
                           'Marat.X',
                           style: GoogleFonts.abel(fontSize: 15),
                         ),
                       ),
-                      SizedBox(
-                        width: 160,
-                      ),
+
                       Text('9 300 000'),
                       Text('sum',style:TextStyle(color:Colors.black54)),
                     ],
@@ -125,11 +134,21 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                   child: SizedBox(
                     height: 50,
                     child: Row(
+
                       children: [
-                        Expanded(child: Text('Valentina.B')),
                         SizedBox(
-                          width: 155,
+                          width: 15,
                         ),
+
+                        CircleAvatar(
+                          backgroundColor: Colors.blue,
+                          radius: 5,
+                        ),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Expanded(child: Text('Valentina.B')),
+
                         Text('6 100 000'),
                         Text('sum',style:TextStyle(color:Colors.black54)),
                       ],
@@ -145,15 +164,21 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                   ),
                   child: Row(
                     children: [
+                      CircleAvatar(
+                        backgroundColor:Colors.pink,
+                        radius: 5,
+
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
                       Expanded(
                         child: Text(
                           'Nitalya.Yu',
                           style: GoogleFonts.abel(fontSize: 15),
                         ),
                       ),
-                      SizedBox(
-                        width: 150,
-                      ),
+
                       Text('5 000 000'),
                       Text('sum',style:TextStyle(color:Colors.black54)),
                     ],
@@ -164,10 +189,19 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                     height: 50,
                     child: Row(
                       children: [
-                        Expanded(child: Text('Rustam.X')),
                         SizedBox(
-                          width: 165,
+                          width: 15,
                         ),
+
+                        CircleAvatar(
+                          backgroundColor: Colors.purpleAccent,
+                          radius: 5,
+                        ),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Expanded(child: Text('Rustam.X')),
+
                         Text('4 750 000'),
                         Text('sum',style:TextStyle(color:Colors.black54)),
                       ],
@@ -183,15 +217,21 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                   ),
                   child: Row(
                     children: [
+                      CircleAvatar(
+                        backgroundColor:Colors.lightGreen,
+                        radius: 5,
+
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
                       Expanded(
                         child: Text(
                           'Dostonxon.O',
                           style: GoogleFonts.abel(fontSize: 15),
                         ),
                       ),
-                      SizedBox(
-                        width: 135,
-                      ),
+
                       Text('3 700 000'),
                       Text('sum',style:TextStyle(color:Colors.black54)),
                     ],
@@ -202,10 +242,19 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                     height: 50,
                     child: Row(
                       children: [
-                        Expanded(child: Text('Diera')),
                         SizedBox(
-                          width: 195,
+                          width: 15,
                         ),
+
+                        CircleAvatar(
+                          backgroundColor: Colors.brown,
+                          radius: 5,
+                        ),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Expanded(child: Text('Diera')),
+
                         Text('2 900 000'),
                         Text('sum',style:TextStyle(color:Colors.black54)),
                       ],
@@ -221,15 +270,21 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                   ),
                   child: Row(
                     children: [
+                      CircleAvatar(
+                        backgroundColor:Colors.lightBlueAccent,
+                        radius: 5,
+
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
                       Expanded(
                         child: Text(
                           'Islomali.N',
                           style: GoogleFonts.abel(fontSize: 15),
                         ),
                       ),
-                      SizedBox(
-                        width: 150,
-                      ),
+
                       Text('1 100 000'),
                   Text('sum',style:TextStyle(color:Colors.black54)),
                     ],
@@ -240,10 +295,19 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                     height: 50,
                     child: Row(
                       children: [
-                        Expanded(child: Text('Vladimir.N')),
                         SizedBox(
-                          width: 170,
+                          width: 15,
                         ),
+
+                        CircleAvatar(
+                          backgroundColor: Colors.deepOrangeAccent,
+                          radius: 5,
+                        ),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Expanded(child: Text('Vladimir.N')),
+
                         Text('950 000'),
                         Text('sum',style:TextStyle(color:Colors.black54)),
                       ],
