@@ -57,7 +57,7 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                   ),
                   child: Row(
                     children: [
-                      CircleAvatar(
+                      const CircleAvatar(
                         backgroundColor:Colors.deepPurple,
                         radius: 5,
 
@@ -110,7 +110,7 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                   ),
                   child: Row(
                     children: [
-                      CircleAvatar(
+                      const CircleAvatar(
                         backgroundColor:Colors.orangeAccent,
                         radius: 5,
 
@@ -164,7 +164,7 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                   ),
                   child: Row(
                     children: [
-                      CircleAvatar(
+                      const CircleAvatar(
                         backgroundColor:Colors.pink,
                         radius: 5,
 
@@ -217,7 +217,7 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                   ),
                   child: Row(
                     children: [
-                      CircleAvatar(
+                      const CircleAvatar(
                         backgroundColor:Colors.lightGreen,
                         radius: 5,
 
@@ -270,7 +270,7 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                   ),
                   child: Row(
                     children: [
-                      CircleAvatar(
+                      const CircleAvatar(
                         backgroundColor:Colors.lightBlueAccent,
                         radius: 5,
 
@@ -314,7 +314,7 @@ final themeData=isDark?AppTheme.dark:AppTheme.light;
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 25,
                 ),
              Switch(value: isDark,
